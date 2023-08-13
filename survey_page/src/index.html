@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Survey_Page</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+
+
+<body class="container">
+    <header >
+        <h1 id ="title">Survey_Title</h1>
+        <p id="description">Description of the Survey.....</p>
+    </header>
+    <form id="survey-form">
+        <div class="form-group">
+            <label id="name-label" for="name">Name</label>
+                <input type="text"
+                       name="name"
+                       placeholder="Enter Your Name Here"
+                       id="name"
+                       class="form-control"
+                       required
+                >
+        </div>
+        <div class="form-group">
+            <label id="email-label" for="email">Email</label>
+                <input type="email"
+                       name="email"
+                       id="email"
+                       class="form-control"
+                       placeholder="Email-Address"
+                       required>
+        </div>
+        <div class="form-group">
+            <label id="number-label" for="number">Age(Optional)</label>
+                <input type="number"
+                       name="number"
+                       id="number"
+                       class="form-control"
+                       placeholder="Enter a valid Contact-Number"
+                       min="12"
+                       max="100">
+            </label>
+        </div>
+        <div class="form-group">
+            <p>Question for Dropdown Menu?</p>
+            <select id="dropdown" 
+                    class="form-control"
+                    required>
+                 <option disabled selected value>Nothing Selected</option>
+                 <option value="option-1">Option-1</option>
+                 <option value="option-2">option-2</option>
+                 <option value="option-3">option-3</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <p>Question for Radio-Button?</p>
+            <label>
+            <input name="option"
+                   value="option-1"
+                   type="radio"
+                   class="radio-control"
+                   checked>Option-1
+            </label>
+            <label>
+                <input name="option"
+                       value="option-2"
+                       type="radio"
+                       class="radio-control">Option-2
+            </label>
+        </div>
+        <div class="form-group">
+            <p>Question for Checkbox?<span>(Check all that apply)</span></p>
+            <label>
+                <input name="checkbox-1"
+                       value="checkbox-1"
+                       type="checkbox"
+                       class="checkbox-control">Checkbox-1
+            </label>
+            <label>
+                <input name="checkbox-2"
+                       value="checkox-2"
+                       type="checkbox"
+                       class="checkbox-control">Checkbox-2
+            </label>
+        </div>
+        <div class="form-group">
+            <p>Question for text-area?</p>
+            <textarea id="answer"
+                      name="answer"
+                      class="textarea-control"
+                      placeholder="Enter your Answer here."></textarea>
+        </div>
+        <div class="form-group">
+            <button type="submit"
+                    id="submit"
+                    class="submit-button"
+            >Submit</button>
+        </div>
+    </form>
+
+</html>
