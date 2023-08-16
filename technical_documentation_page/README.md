@@ -17,3 +17,6 @@
 15. Your technical documentation should use at least one media query
 
 ## Screenshots
+![image](https://github.com/harshitnaik3/Responsive-Web-Design/assets/54465065/c0b10d61-0ae9-4cf9-83fb-850d07f98ec0)
+![image](https://github.com/harshitnaik3/Responsive-Web-Design/assets/54465065/7ca2cf27-ab22-4e9e-a13c-6a9fc31d437a)
+
